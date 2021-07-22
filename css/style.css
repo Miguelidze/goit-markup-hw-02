@@ -70,8 +70,8 @@ header {
   color: var(--title-text-color);
 }
 
-.contacts-list-head:focus,
-.contacts-list-head:hover {
+.contact-link-head:focus,
+.contact-link-head:hover {
   color: var(--link-text-color);
   font-weight: 500;
 }
@@ -161,8 +161,8 @@ address {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
-.contacts-list-foot:focus,
-.contacts-list-foot:hover {
+.contact-link-foot:focus,
+.contact-link-foot:hover {
   color: var(--link-text-color);
 }
 /* Странница Portfolio*/
