@@ -102,7 +102,7 @@ button {
 
 button:hover,
 button:focus {
-  color: var(--link-text-color);
+  color: var(--main-text-color);
 }
 
 /*block description*/
@@ -166,13 +166,19 @@ address {
   color: var(--link-text-color);
 }
 /* Странница Portfolio*/
-.page-serfing > button {
+.page-serfing {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   background-color: var(--button-color);
   color: var(--title-text-color);
   text-align: center;
+}
+.page-serfing:focus,
+.page-serfing:hover {
+  color: var(--white-color);
+  background-color: var(--link-text-color);
 }
 .title-project {
   font-weight: 700;
