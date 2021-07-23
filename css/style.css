@@ -23,9 +23,6 @@ a {
   color: inherit;
 }
 
-header {
-  background-color: var(--background-color-header);
-}
 /* */
 .list {
   list-style: none;
@@ -70,10 +67,12 @@ header {
   color: var(--title-text-color);
 }
 
+.contact-link-head {
+  font-weight: 500;
+}
 .contact-link-head:focus,
 .contact-link-head:hover {
   color: var(--link-text-color);
-  font-weight: 500;
 }
 /* Main banner*/
 .hero {
@@ -156,11 +155,13 @@ address {
   font-size: 14px;
   line-height: 1.7;
 }
-.contacts-list-foot list {
+
+.contact-link-foot {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .contact-link-foot:focus,
 .contact-link-foot:hover {
   color: var(--link-text-color);
